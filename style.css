@@ -1,1 +1,26 @@
-asdasdg
+* {
+    font-family: arial;
+    margin: 0;
+}
+/** Nav Strip Main Horizontal **/
+.navbar {
+    background-color: rgb(16, 15, 15);
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.Amazon_Logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 100px;
+}
+.deliveryAddress {
+    color: white;
+    font-size: 0.8rem;
+}
+.locationLogo {
+    font-weight: bold;
+    font-size: 1rem;
+}
