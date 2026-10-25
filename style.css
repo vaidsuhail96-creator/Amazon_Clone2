@@ -8,6 +8,7 @@
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 
 }
 .Amazon_Logo {
@@ -23,4 +24,46 @@
 .locationLogo {
     font-weight: bold;
     font-size: 1rem;
+}
+.navSearch {
+    display: flex;
+    width: 550px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+.navSelect {
+    width: 40px;
+    border: none;
+    background-color: #efecec;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.navSearchAmazon {
+    width: 100%;
+    border: none;
+}
+.navSearchLogo {
+    background-color: rgb(244, 162, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.navSearchLogo :hover {
+    background-color: rgb(0, 255, 47);
+}
+.navSearchLogo:active {
+    background-color: rgb(241, 239, 237);
+}
+.signIn {
+    color: white;
+
+}
+.returnStuff {
+    color: white;
+}
+.cart {
+    color: white;
 }
