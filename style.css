@@ -2,6 +2,12 @@
   font-family: arial;
   margin: 0;
 }
+.border {
+  border: 1px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
 /** Nav Strip Main Horizontal **/
 .navbar {
   background-color: rgb(16, 15, 15);
@@ -10,7 +16,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.Amazon_Logo {
+.Amazon_Logo{
   background-image: url(amazon_logo.png);
   background-size: cover;
   height: 60px;
@@ -51,11 +57,11 @@
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.navSearchLogo :hover {
-  background-color: rgb(0, 255, 47);
+.navSearchLogo:hover {
+  background-color: rgb(252, 105, 0);
 }
 .navSearchLogo:active {
-  background-color: rgb(241, 239, 237);
+  background-color: rgb(220, 215, 210);
 }
 .signIn {
   color: white;
@@ -88,21 +94,154 @@
   width: 1200px;
 }
 .heroSection {
-    background-image: url(hero_image.jpg);
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  background-image: url(hero_image.jpg);
+  background-size: cover;
+  height: 1000px;
+  position: relative;
 }
 .ribbon {
-    height: 40px;
-    width: 80%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    margin-bottom: 400px;
-
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%);
+  height: 40px;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  margin-bottom: 450px;
+}
+.firstMainBox {
+  background-color: rgb(224, 207, 207);
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: 500px;
+  left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.a {
+  background-image:url(lux_1.png);
+  background-size: cover;
+  height: 160px;
+  width: 180px;
+  margin-top: 2rem;
+}
+.b {
+  background-image:url(box1_image.jpg);
+  background-size: cover;
+  height: 160px;
+  width: 180px;
+  margin-top: 2rem;
+}
+.c {
+  background-image:url(lux_2.png);
+  background-size: cover;
+  height: 160px;
+  width: 180px;
+}
+.d {
+  background-image:url(lux_3.webp);
+  background-size: cover;
+  height: 160px;
+  width: 180px;
+}
+.firstMainBox p {
+  position: absolute;
+  top: 13px;
+}
+.secondMainBox p {
+  position: absolute;
+  top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box2 {
+  background-image: url(box4_image.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+}
+.secondMainBox {
+ background-color: white;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: 500px;
+  left: 525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirdMainBox {
+  
+ background-color: white;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: 500px;
+  left: 1010px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirdMainBox p {
+  position: absolute;
+  top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box3 {
+  background-image: url(box5_image.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+}
+.back {
+  background-color: rgba(184, 90, 3, 0.813);
+  height: 50px;
+  width:100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer2 {
+  background-color: #2b3737;
+  color: white;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer2 a {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-top: 2.5px;
+}
+.copyright {
+  background-color: #8C7A6B;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+hr {
+  height: 0.5px;
+  border: none;
+  background-color: white;
+}
+.lastfooterdetail {
+  background-color: #8C7A6B;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
